@@ -1,6 +1,8 @@
 from flask import Flask, render_template, url_for, request, redirect
 import csv
 
+#venv\Scripts\activate
+
 #flask --app sever run
 #flask --app sever --debug run
 
@@ -46,7 +48,8 @@ def submit_form():
         return 'someting went wrong. try again pls.'
 
 
-
+#git config --global user.name "Xxie7"
+#git config --global user.email "xxie7@buffalo.edu"
 
 # @app.route('/login', methods=['POST', 'GET'])
 # def login():
